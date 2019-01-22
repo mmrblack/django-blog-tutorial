@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Black &amp; White</title>
+    <title>mmrblack的博客</title>
 
     <!-- meta -->
     <meta charset="UTF-8">
@@ -15,8 +15,17 @@
     <link rel="stylesheet" href="{% static 'blog/css/pace.css' %}">
     <link rel="stylesheet" href="{% static 'blog/css/custom.css' %}">
     <link rel="stylesheet" href="{% static 'blog/css/highlights/github.css' %}">
-
+    <style type="text/css">
+        
+    </style>
     <style>
+        #site-footer {
+        background: #262626;
+        padding: 7em 0 0 0 !important;
+        margin-bottom: 0 !important;
+        width: 100%;
+        float: left;
+        }
         span.highlighted {
             color: red;
         }
@@ -35,7 +44,7 @@
         <div class="row">
             <div class="col-md-4 col-sm-5 col-xs-8">
                 <div class="logo">
-                    <h1><a href="{% url 'blog:index' %}"><b>Black</b> &amp; White</a></h1>
+                    <h1><a href="{% url 'blog:index' %}">布莱克先生的博客</a></h1>
                 </div>
             </div><!-- col-md-4 -->
             <div class="col-md-8 col-sm-7 col-xs-4">
@@ -49,7 +58,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="cl-effect-11"><a href="{% url 'blog:index' %}" data-hover="首页">首页</a></li>
-                            <li class="cl-effect-11"><a href="#" data-hover="博客">博客</a></li>
+                            <li class="cl-effect-11"><a href="#" data-hover="博客">项目</a></li>
                             <li class="cl-effect-11"><a href="#" data-hover="关于">关于</a></li>
                             <li class="cl-effect-11"><a href="#" data-hover="联系">联系</a></li>
                         </ul>
@@ -149,10 +158,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="copyright">&copy 2017 - 采集自<a href="http://www.cssmoban.com/"
-                                                        target="_blank" title="模板之家">模板之家</a>
-                    - 由<a href="http://zmrenwu.com/" title="网页模板" target="_blank">追梦人物的博客</a>修改
-                </p>
+                <p class="copyright">&copy 2019 - zhangxianxin@zhangxianxin.top &nbsp 鲁ICP备18002668号-2</p>
             </div>
         </div>
     </div>
